@@ -87,7 +87,7 @@ def juntar_arquivos(caminho1, caminho2, caminho3):
     return df_filtrado
 
 # Exemplo de uso
-caminho_pasta = r"C:\Users\rebecca.santana\OneDrive - GubolinCo\Área de Trabalho\Arquivos_ETLs"
+caminho_pasta = r"#insira o caminho da pasta aqui"
 arquivo_jan = os.path.join(caminho_pasta, "vendas_janeiro.csv")
 arquivo_fev = os.path.join(caminho_pasta, "vendas_fevereiro.csv")
 arquivo_mar = os.path.join(caminho_pasta, "vendas_marco.csv")
